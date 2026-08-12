@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'avatars.githubusercontent.com' },
     ],
   },
+  turbopack: {
+    root: '/home/dhanxxi/ai-lab/projects/portfolio',
+  },
 };
 
 export default nextConfig;
