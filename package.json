@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:3258": "next dev -p 3258",
     "build": "next build",
     "start": "next start",
+    "start:3258": "next start -p 3258",
     "lint": "eslint",
     "tailwind-init": "tailwindcss init -p"
   },
